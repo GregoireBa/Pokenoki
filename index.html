@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/pokemon.js"></script>
+    <title>Pokenoki</title>
+
+  </head>
+  <body>
+    <main class="main-accueil">
+      <div class="deck">
+        <div class="global-card">
+          <span class="numberboxcard">1</span>
+          <div class="box-card">
+            <div class="card"></div>
+          </div>
+        </div>
+
+        <div class="global-card">
+          <span class="numberboxcard">2</span>
+          <div class="box-card">
+            <div class="card"></div>
+          </div>
+        </div>
+
+        <div class="global-card">
+          <span class="numberboxcard">3</span>
+          <div class="box-card">
+            <div class="card"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VUE PRINCIPAL AVEC LA CARTE POKEMON PRINCIPAL -->
+      <div class="viewPrincipal">
+        <!-- LOGO POKEMON -->
+        <div class="logo"><img src="./img/logo.png" alt="logo pokemon" /></div>
+
+        <!-- CARD POKEMON PRINCIPAL -->
+        <div class="cardPrincipal">
+          <!-- NAME POKEMON + LEVEL -->
+          <div class="globalnamepokemon">
+            <div class="name"></div>
+
+            <div class="box_niv_elem">
+              <span class="icoNv">Nv</span>
+              <div class="level"></div>
+            </div>
+          </div>
+          <!-- BACKGROUND + PICTURE POKEMON -->
+          <div class="background_pokemon">
+            <img class="picturePokemon" />
+          </div>
+          <!-- SORT POKEMON -->
+          <div class="sorts"></div>
+        </div>
+
+        <div class="btn-actions">
+          <button class="go">Lancer</button>
+          <button class="stop">Stop</button>
+        </div>
+      </div>
+      <!-- ========================================= -->
+
+      <div class="deck">
+        <div class="global-card">
+          <span class="numberboxcard">4</span>
+          <div class="box-card">
+            <div class="card"></div>
+          </div>
+        </div>
+
+        <div class="global-card">
+          <span class="numberboxcard">5</span>
+          <div class="box-card">
+            <div class="card"></div>
+          </div>
+        </div>
+
+        <div class="global-card">
+          <span class="numberboxcard">6</span>
+          <div class="box-card">
+            <div class="card"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
